@@ -1,0 +1,9 @@
+{
+  "name": "Shopify Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [3000],
+  "remoteUser": "vscode"
+}
