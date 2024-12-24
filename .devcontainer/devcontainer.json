@@ -4,6 +4,13 @@
     "dockerfile": "Dockerfile"
   },
   "workspaceFolder": "/workspace",
-  "forwardPorts": [3000],
-  "remoteUser": "vscode"
+  "forwardPorts": [3000, 9292, 5173, 8080],
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      }
+    }
+  }
 }
